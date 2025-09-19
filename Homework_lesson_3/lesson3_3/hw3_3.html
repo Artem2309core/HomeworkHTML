@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>lorem ipsum</title>
+    <style>
+        *{
+            scroll-behavior: smooth;
+        }
+        section{
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 24px;
+        }
+        #one {background: lightblue;}
+        #two {background: lightgreen;}
+        #three {background: lightcoral;}
+        .arrow{
+            font-size: 50px;
+            height: 100px;
+            text-decoration: none;
+            color: black;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+<section id="one">
+    <h1>Секція 1</h1>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    <a href="#two" class="arrow">↓</a>
+</section>
+
+<section id="two">
+    <a href="#one" class="arrow">↑</a>
+    <h1>Секція 2</h1>
+    <p>Ut in geometria, prima si dederis, danda sunt omnia.</p>
+    <a href="#three" class="arrow">↓</a>
+</section>
+
+<section id="three">
+    <a href="#one" class="arrow">↑</a>
+    <h1>Секція 3</h1>
+    <p>Quid sit voluptas? Quid manilium?</p>
+</section>
+</body>
+</html>
