@@ -1,0 +1,59 @@
+.register{
+    width: 50vw;
+    height: 50vh;
+    background-color: whitesmoke;
+    border-radius: 25px;
+}
+body{
+    background-color: #669493;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+.register div:nth-child(1){
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #48C2BF;
+    height: 20%;
+    font-family: 'aerial', sans-serif;
+    border-radius: 25px 25px 0 0;
+}
+
+.register div:nth-child(1) h2{
+    font-size: 40px;
+    font-weight: 350;
+    font-family: 'aerial', sans-serif;
+}
+.register form{
+    display: flex;
+    justify-content:flex-start;
+    align-items: center;
+    flex-direction: column;
+}
+
+input[type="text"], input[type="password"]{
+    width: 350px;
+    height: 33px;
+    margin-top: 20px;
+}
+.register div>form>div{
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding-top: 15px ;
+}
+form input[type="submit"]{
+    background-color: #48C2BF;
+    border-radius: 5px ;
+    width: 100px;
+    height: 33px;
+    font-size: 20px;
+    font-family: 'aerial', sans-serif;
+}

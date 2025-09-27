@@ -1,0 +1,17 @@
+div.text1>ul>li:nth-child(even) {
+    color:pink
+}
+div.text2>ul>li:nth-child(odd) {
+    font-size: 22px;
+}
+div.text3>ul>li:nth-child(2n+4)::after {
+    content: "!";
+}
+div.text4>ul>li:last-of-type {
+    color: purple;
+}
+div.text5>ul>li::first-letter {
+    color: red;
+    font-size: 30px;
+}
+div.text6>ul>li:last-of-type {}
