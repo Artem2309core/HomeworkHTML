@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+.icons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Inter, sans-serif;
+    padding: 64px 0;
+    gap: 32px;
+}
+.icon{
+    width:271px;
+}
+.icon h3{
+    color: #161543;
+
+    /* Text/1 strong */
+    font-family: Inter sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%; /* 24px */
+}
+.icon p{
+    color: #7687A1;
+    font-family: Inter sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 140%; /* 22.4px */
+    padding: 10px 0;
+}
+
+

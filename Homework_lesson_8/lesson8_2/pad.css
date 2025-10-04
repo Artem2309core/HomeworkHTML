@@ -1,0 +1,12 @@
+@media screen and (max-width: 768px){
+ .icons{
+     width: 720px;
+     flex-wrap: wrap;
+     gap: 24px;
+     padding: 32px;
+ }
+    .icon{
+        width: 100%;
+
+    }
+}
